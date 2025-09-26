@@ -1,0 +1,7 @@
+::placeholder {
+  color: #797979 !important;
+  opacity: 1; /* Ensures it's not faded */
+}
+textarea {
+  color: #a5a5a5  !important; /* White text inside textarea */
+}
