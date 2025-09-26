@@ -69,12 +69,12 @@ function Clipboard() {
   };
 
   return (
-    <div className=" d-flex justify-content-center align-items-center vh-100 bg-dark">
+    <div className="p-4 d-flex justify-content-center align-items-center vh-100 bg-dark">
       <div
         className="card shadow-lg w-100"
         style={{ maxWidth: "900px", backgroundColor: "#1e1e1e", color: "white" }}
       >
-        <div className="p-5">
+        <div className="p-3">
           <h3 className="text-center mb-2 text-light fw-bold">📋</h3>
           <p className="text-center text-secondary mt-2 small">{id}</p>
 
