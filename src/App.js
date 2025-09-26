@@ -3,6 +3,7 @@ import { customAlphabet } from "nanoid";
 import { QRCodeCanvas } from "qrcode.react";
 import { db } from "./firebase";
 import { doc, setDoc, onSnapshot } from "firebase/firestore";
+import "./App.css"
 import {
   useParams,
   BrowserRouter as Router,
@@ -81,7 +82,7 @@ function Clipboard() {
           <textarea
             value={text}
             onChange={handleChange}
-            className="form-control mb-3 bg-dark text-white border-dark"
+            className="form-control mb-3 bg-dark border-dark"
             rows="12"
             placeholder="Type something..."
           />
